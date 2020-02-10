@@ -19,6 +19,8 @@ window.onload = function() {
 	map.panTo([ 35.658034,139.701636  ]) // 鯖江駅
 	
 	map.addIcon(35.658034,139.701636, "渋谷駅", "icon/Icon.jpg", 64);
+	
+	map.on("click", (e) => alert(e.latlng)
 }
 
 </script>
